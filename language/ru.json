@@ -1,26 +1,26 @@
 {
   "semantics": [
     {
-      "label": "Task description",
-      "description": "Describe how the user should solve the task.",
-      "default": "Drag the words into the correct boxes"
+      "label": "Описание задачи",
+      "description": "Опишите, как пользователь должен решить задачу.",
+      "default": "Перетащите слова в правильные поля"
     },
     {
-      "label": "Text",
+      "label": "Текст",
       "placeholder": "*Oslo* is the capital of Norway, *Stockholm* is the capital of Sweden and *Copenhagen* is the capital of Denmark. All cities are located in the *Scandinavian:Northern Part of Europe* peninsula.",
       "description": "",
       "important": {
-        "description": "<ul><li>Droppable words are added with an asterisk (*) in front and behind the correct word/phrase.</li><li>You may add a textual tip, using a colon (:) in front of the tip.</li><li>For every empty spot there is only one correct word.</li><li>You may add feedback to be displayed when a task is completed. Use '\\+' for correct and '\\-' for incorrect feedback.</li></ul>",
-        "example": "H5P content may be edited using a *browser:What type of program is Chrome?*. </br> H5P content is *interactive\\+Correct! \\-Incorrect, try again!*"
+        "description": "<ul><li>Пропущенные слова добавляются со звездочкой (*) спереди и сзади правильного слова/фразы.</li><li>Вы можете добавить текстовую подсказку, используя двоеточие (:) перед подсказкой.</li><li>Для каждого пустого места есть только одно правильное слово.</li><li>Вы можете добавить отзыв, который будет отображаться после завершения задачи. Используйте '\\+' для верного и '\\-' для неверного отзыва.</li></ul>",
+        "example": "H5P content may be edited using a *browser:What type of program is Chrome?*. </br> H5P content is *interactive\\+Верно! \\-Неверно, попробуйте снова!*"
       }
     },
     {
-      "label": "Overall Feedback",
+      "label": "Общий отзыв",
       "fields": [
         {
           "widgets": [
             {
-              "label": "Default"
+              "label": "По умолчанию"
             }
           ],
           "label": "Define custom feedback for any score range",
